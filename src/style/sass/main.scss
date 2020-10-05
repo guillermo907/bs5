@@ -1,0 +1,13 @@
+//Variables
+$primary: #0d6efd;
+$primaryTrans: #0d6dfded;
+$success: #198754;
+$successTrans: #198754eb;
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Stylesheets
+@import "home";
+@import "video";
+
