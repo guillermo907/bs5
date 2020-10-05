@@ -2,7 +2,7 @@
   "name": "bs5",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://guillermo907.github.io/bs5/",
+  "homepage": "http://guillermo907.github.io/bs5",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
