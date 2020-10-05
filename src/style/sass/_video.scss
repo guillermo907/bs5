@@ -13,7 +13,11 @@ video{
     z-index: -1;
     background: linear-gradient(-95deg,#343a40ed, $primary, #198754f0, #0d6dfddc) !important;
     background-size: 300% 300% !important;
+    -webkit-animation: gradient 35s ease infinite !important;
+    -moz-animation: gradient 35s ease infinite !important;
+    -o-animation: gradient 35s ease infinite !important;
     animation: gradient 35s ease infinite !important;
+
 }
 .videoContainer{
     width: 100%;
@@ -45,15 +49,40 @@ video{
 		background-position: 0% 50%;
 	}
 }
+@-webkit-keyframes gradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-o-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 @keyframes grow {
     0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
     100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
 }
-
-@mixin animacionKeyframes{
-    @keyframes grow {
-        0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
-        100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
-    }
+@-webkit-keyframes grow {
+    0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
+    100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
 }
+@-o-keyframes grow {
+    0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
+    100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
+}
+
+
