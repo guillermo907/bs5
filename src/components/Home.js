@@ -11,7 +11,7 @@ const Home = () => {
             <Banner title="Desarrollo web" btnTitle="Go"/>
             <Infobar />
             <FormBanner /> 
-            <Video videoUrl="https://sitiopruebavero.000webhostapp.com/downloads/Fender%20CP50s%20-%20Cm%20Jam..mp4" />
+            <Video videoUrl="https://sitiopruebavero.000webhostapp.com/downloads/The%20McCarty%20%20PRS%20Guitars.mp4" />
         </Fragment>
     );
 }
