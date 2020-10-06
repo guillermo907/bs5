@@ -1,8 +1,12 @@
 //Variables
 $primary: #0d6efd;
 $primaryTrans: #0d6dfded;
+$secondary: #19876d;
+$secondaryTrans: #202f46dc;
 $success: #198754;
 $successTrans: #198754eb;
+$darkTrans: #343a40e4;
+$darkTrans2: #343a4095;
 
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
@@ -10,4 +14,5 @@ $successTrans: #198754eb;
 // Stylesheets
 @import "home";
 @import "video";
+@import "footer";
 
