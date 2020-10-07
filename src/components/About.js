@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
 
     return (
-        <div className="container-fluid text-white bg-primary p-5 aboutContainer">
+        <div className="container-fluid text-white p-2 aboutContainer align-items-center text-center justify-content-center">
             <div className="row">
                 <div className="col-sm">
                     asdasd
