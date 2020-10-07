@@ -12,12 +12,9 @@ video{
         height: 100%;
         width: 100%;
         z-index: -1;
-        background: linear-gradient(-95deg,#343a40ed, $primary, #198754f0, #0d6dfddc) !important;
-        background-size: 300% 300% !important;
-        -webkit-animation: gradient 35s ease infinite !important;
-        -moz-animation: gradient 35s ease infinite !important;
-        -o-animation: gradient 35s ease infinite !important;
-        animation: gradient 35s ease infinite !important;
+        background: linear-gradient(-95deg,#343a40ed, $primary, #198754f0, #0d6dfddc);
+        background-size: 300% 300%;
+        animation: gradient 25s ease infinite;
     }
 }
 .videoContainer{
@@ -39,13 +36,13 @@ video{
         height: 100%;
         width: 100%;
         z-index: -1;
+        // background: linear-gradient(-180deg,#ffffffc3, $primary,#0d6dfd); muy chingon
         // background: linear-gradient(to bottom, #198754da, $success, $primary ) !important;
-        color: rgba(0, 0, 0, 0.943) !important;
-        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.812), $light, $primary) !important;
-        // -webkit-animation: gradient 35s ease infinite !important;
-        // -moz-animation: gradient 35s ease infinite !important;
-        // -o-animation: gradient 35s ease infinite !important;
-        animation: gradient 35s ease infinite !important;
+        color: rgba(0, 0, 0, 0.943);
+        // background: linear-gradient(to bottom, rgba(255, 255, 255, 0.812), $light, $primary);
+        background: linear-gradient(-180deg, #0d6dfdca, #ffffff, #ffffff); 
+        // background-size: 120% 120%;
+        // animation: gradient 15s ease infinite;
     }
 }
 .contentContainer{

@@ -2,9 +2,10 @@
 .bannerContainer{
     min-height: 90vh;
     position: relative;
-    background: linear-gradient(-45deg,#198754e4, #198754fd, #0d6dfddd, $secondaryTrans) !important;
-    background-size: 300% 300% !important;
-    animation: gradient 25s ease infinite !important;
+    // background: linear-gradient(-45deg,#198754e4, #198754fd, #0d6dfddd, $secondaryTrans) !important;
+    background: linear-gradient(-45deg, #ee7752, #0d6dfddc, hsla(152, 69%, 31%, 0.93), #0d6dfdff);
+	background-size: 300% 300%;
+	animation: gradient 20s ease infinite;
 }
 .bannerContainer::before{
     content: "";
@@ -18,9 +19,9 @@
 }
 
 .formBannerContainer{
-    background: linear-gradient(-95deg,#343a40da, $secondary, #198754e4, #0d6dfddc) !important;
-    background-size: 300% 300% !important;
-    animation: gradient 25s ease infinite !important;
+    background: linear-gradient(-95deg,#343a40da, $secondary, #198754e4, #0d6dfddc);
+    background-size: 300% 300%;
+    animation: gradient 25s ease infinite;
 }
 
 @keyframes gradient{
