@@ -3,7 +3,7 @@ import React from 'react';
 const FormBanner = () =>{
     return (
         <div className="container-fluid bg-primary text-white text-center align-items-center justify-content-center 
-        formBannerContainer" >
+        formBannerContainer tema" >
             <div className="row p-5">
                 <div className="col-sm text-lg-right">
                     <h2>Lorem</h2>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProductBanner = () =>{
     return (
-        <div className="container-fluid bg-secondary bg-gradient text-white justify-content-center text-center p-5">
+        <div className="container-fluid bg-secondary bg-gradient text-white justify-content-center text-center p-5 tema">
             <h1>Producto</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             <p>$48,999.00</p>

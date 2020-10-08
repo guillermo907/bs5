@@ -37,7 +37,7 @@ const Navbar = () => {
                                         <a href="" className="dropdown-item" 
                                         onClick = {(e) => {
                                             e.preventDefault();
-                                            const divs = document.getElementsByClassName("container-fluid");
+                                            const divs = document.getElementsByClassName("tema");
                                             for (let el of divs){
                                                 el.classList.toggle("color");
                                             }
