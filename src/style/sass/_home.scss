@@ -7,6 +7,14 @@
 	background-size: 300% 300%;
 	animation: gradient 20s ease infinite;
 }
+
+.color{
+    // background: linear-gradient(-45deg,#198754e4, #198754fd, #0d6dfddd, $secondaryTrans) !important;
+    background: linear-gradient(-45deg, #ee7752, #0d6dfddc, hsla(0, 0%, 100%, 0.757), rgba(13, 109, 253, 0.861));
+    background-size: 200% 200%;
+    animation: none;
+}
+
 .bannerContainer::before{
     content: "";
     background: url("https://images.unsplash.com/photo-1594415156038-02d665441df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");

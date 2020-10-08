@@ -4,11 +4,12 @@ import Navbar from './Navbar';
 import Home from './Home';
 import About from './About';
 import main from '../style/css/main.css';
+import Footer from './Footer';
 
 const App = () => {
 
     return (
-        <div className="container-fluid p-0">
+        <div className="container-fluid p-0" >
             <Router>
                 <div>
                     <Navbar />
@@ -16,7 +17,8 @@ const App = () => {
                         <Route path="/" exact component={Home} />
                         <Route path="/bs5" component={Home} />
                         <Route path="/about" component={About} />
-                    </Switch>    
+                    </Switch>
+                    <Footer />    
                 </div>
             </Router>
         </div>

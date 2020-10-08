@@ -3,11 +3,23 @@ $primary: #0d6efd;
 $primaryTrans: #0d6dfded;
 $secondary: #19876d;
 $secondaryTrans: #202f46dc;
-$secondary2: ee7752;
+$secondary2: #ee7752;
 $success: #198754;
 $successTrans: #198754eb;
 $darkTrans: #343a40e4;
 $darkTrans2: #343a4095;
+
+body.dark{
+    $primary: #0a0d11;
+    $primaryTrans: #1c222aed;
+    $secondary: #871919;
+    $secondaryTrans: #202f46dc;
+    $secondary2: #ee7752;
+    $success: #87197e;
+    $successTrans: #39423eeb;
+    $darkTrans: #343a40e4;
+    $darkTrans2: #0e2d4b95;
+}
 
 
 @import '../../../node_modules/bootstrap/scss/bootstrap.scss';
