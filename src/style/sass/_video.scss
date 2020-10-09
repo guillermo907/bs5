@@ -4,7 +4,7 @@ video{
     z-index: -2;
 }
 @media (min-width: 800px){
-    .videoInnerContainer::before{
+    .videoInnerContainer.color::before{
         content: "";
         position: absolute;
         top: 0;
@@ -15,6 +15,17 @@ video{
         background: linear-gradient(-95deg,#343a40ed, $primary, #198754f0, #0d6dfddc);
         background-size: 300% 300%;
         animation: gradient 25s ease infinite;
+    }
+    .videoInnerContainer.light::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background: linear-gradient(-95deg,#343a40ed, $primary, #fefffef0, #0d6dfddc);
+        background-size: 300% 300%;
     }
 }
 .videoContainer{
@@ -28,7 +39,7 @@ video{
         color: rgba(0, 0, 0, 0.943) !important;
         position: relative;
     }
-    .videoContainer::before{
+    .videoContainer.color::before{
         content: "";
         position: absolute;
         top: 0;

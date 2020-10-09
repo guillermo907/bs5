@@ -2,7 +2,7 @@ import React from 'react';
 
 const Infobar = () => {
     return (
-        <div className="container-fluid text-white bg-success align-items-center text-center justify-content-center p-4 tema">
+        <div className="container-fluid align-items-center text-center justify-content-center p-4 infoBarContainer tema light">
             <div className="row justify-content-md-center p-4">
                 <div className="col-sm">
                     <h2>

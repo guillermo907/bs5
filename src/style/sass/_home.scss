@@ -1,20 +1,19 @@
 
-.bannerContainer{
+.bannerContainer.color{
     min-height: 90vh;
     position: relative;
     // background: linear-gradient(-45deg,#198754e4, #198754fd, #0d6dfddd, $secondaryTrans) !important;
     background: linear-gradient(-45deg, #ee7752, #0d6dfddc, hsla(152, 69%, 31%, 0.93), #0d6dfdff);
 	background-size: 300% 300%;
-	animation: gradient 20s ease infinite;
+    animation: gradient 20s ease infinite;
 }
-
-.color{
-    // background: linear-gradient(-45deg,#198754e4, #198754fd, #0d6dfddd, $secondaryTrans) !important;
-    background: linear-gradient(45deg, hsla(0, 0%, 100%, 0.757), rgba(13, 109, 253, 0.923)) !important;
-    background-size: 200% 200%;
-    animation: none;
+.bannerContainer.light{
+    min-height: 90vh;
+    position: relative;
+    background: linear-gradient(180deg, #0d6dfdca,#f1f1f1, #ffffff); 
+    background-size: 300% 300%;
+    animation: none;;
 }
-
 .bannerContainer::before{
     content: "";
     background: url("https://images.unsplash.com/photo-1594415156038-02d665441df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
@@ -25,11 +24,32 @@
     width: 100%;
     z-index: -1;
 }
-
-.formBannerContainer{
-    background: linear-gradient(-95deg,#343a40da, $secondary, #198754e4, #0d6dfddc);
+.formBannerContainer.color{
+    background: linear-gradient(180deg, #0d6dfdca, $secondary, #32835c); 
     background-size: 300% 300%;
     animation: gradient 25s ease infinite;
+}
+.formBannerContainer.light{
+    background: linear-gradient(-95deg,#343a40da, $secondary, rgba(255, 255, 255, 0.547), #0d6dfde6);
+    background-size: 200% 200%;
+    animation: none;
+}
+.infoBarContainer.light{
+    background: linear-gradient(-180deg, #0d6dfdaa, $primary) !important;
+    background-size: 300% 300%;
+    color: white !important;
+}
+.infoBarContainer.color{
+    background-color: $secondary;
+    color: rgba(255, 255, 255, 0.957); 
+}
+.containerProductBanner.light{
+    background: linear-gradient(-180deg, hsla(221, 69%, 31%, 0.585), white) !important;
+    color: black !important;
+}
+.containerProductBanner.color{
+    background: linear-gradient(-180deg, hsla(152, 69%, 31%, 0.93), $secondary) !important;
+    color: white;
 }
 
 @keyframes gradient{

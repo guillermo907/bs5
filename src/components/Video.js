@@ -2,8 +2,8 @@ import React from 'react';
 
 const Video = (props) => {
     return (
-        <div className="container-fluid text-white videoContainer text-center p-0 align-items-center justify-content-center tema" id="videoContainer">
-            <div className="videoInnerContainer text-center align-items-center justify-content-center">
+        <div className="container-fluid text-white videoContainer text-center p-0 align-items-center justify-content-center" id="videoContainer">
+            <div className="videoInnerContainer text-center align-items-center justify-content-center tema light">
                 <video autoPlay muted loop id="video">
                     <source src={props.videoUrl} type="video/mp4"/>
                     You browser dont support no shit man....

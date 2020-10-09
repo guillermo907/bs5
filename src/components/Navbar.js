@@ -39,22 +39,26 @@ const Navbar = () => {
                                             e.preventDefault();
                                             const divs = document.getElementsByClassName("tema");
                                             for (let el of divs){
+                                                el.classList.remove("light", "dark");
                                                 el.classList.toggle("color");
                                             }
-                                        }}>Color</a></li>
+                                        }}>Color (animated)</a></li>
                                     <li>
                                         <a href="" className="dropdown-item" 
                                         onClick = { (e) => {
                                             e.preventDefault();
-                                            document.body.classList.remove("dark");
-                                            document.body.classList.toggle("light");
+                                            const divs = document.getElementsByClassName("tema");
+                                            for (let el of divs){
+                                                el.classList.remove("color", "dark");
+                                                el.classList.toggle("light");
+                                            }
                                         } }>Light</a>
                                     </li>
                                     <li>
                                         <a href="" className="dropdown-item" 
                                         onClick = {(e) => {
                                         e.preventDefault();
-                                        document.body.classList.remove("light");
+                                        document.body.classList.remove("light", "color");
                                         document.body.classList.toggle("dark");
                                         }}> Dark</a>
                                     </li>
