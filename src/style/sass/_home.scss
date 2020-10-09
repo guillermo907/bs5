@@ -30,12 +30,12 @@
     animation: gradient 15s ease infinite;
 }
 .formBannerContainer.light{
-    background: linear-gradient(-95deg,#343a40da, $secondary, rgba(255, 255, 255, 0.547), #0d6dfde6);
+    background: linear-gradient(-95deg,#343a40da, rgb(35, 53, 80), rgba(255, 255, 255, 0.547), #0d6dfde6);
     background-size: 200% 200%;
     animation: none;
 }
 .infoBarContainer.light{
-    background: linear-gradient(-180deg, #0d6dfdaa, $primary) !important;
+    background: linear-gradient(-180deg, #0d6dfdaa, rgba(87, 99, 186, 0.826)) !important;
     background-size: 300% 300%;
     color: white !important;
 }
@@ -51,6 +51,9 @@
 .containerProductBanner.color{
     background: linear-gradient(40deg, $primary, $secondary) !important;
     color: white;
+}
+.containerProductBanner > img {
+    border-radius: 1rem;
 }
 
 @keyframes gradient{

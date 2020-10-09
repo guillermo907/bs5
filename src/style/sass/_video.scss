@@ -15,9 +15,9 @@ video{
         width: 100%;
         z-index: -1;
         color: white !important;
-        background: linear-gradient(-45deg, #ee7652ef, #0d6dfddc, $secondaryTrans, rgba(13, 109, 253, 0.874)) !important;
+        background: linear-gradient(-45deg, #ee7652ef, #0d6dfddc, $secondaryTrans, rgba(13, 109, 253, 0.874));
         background-size: 300% 300%;
-        animation: gradient 20s ease infinite;
+        animation: gradient 15s ease infinite;
     }
     .videoInnerContainer.light::before{
         content: "";
@@ -27,7 +27,7 @@ video{
         height: 100%;
         width: 100%;
         z-index: -1;
-        background: linear-gradient(-95deg, $primary, #fefffef8, #0d6dfde8) !important;
+        background: linear-gradient(-105deg, #fefffef8, #0d6dfde8) !important;
         background-size: 400% 300%;
     }
 }
@@ -68,7 +68,8 @@ video{
         z-index: -1;
         background: linear-gradient(180deg, #0d6dfdca, $secondary, $secondary);
         color: white !important;
-        background-size: 120% 120%;
+        background-size: 150% 150%;
+        animation: gradient 15s ease infinite;
     }
 }
 .contentContainer{
@@ -84,34 +85,34 @@ video{
 }
 
 
-// @-webkit-keyframes gradient{
-// 	0% {
-// 		background-position: 0% 50%;
-// 	}
-// 	50% {
-// 		background-position: 100% 50%;
-// 	}
-// 	100% {
-// 		background-position: 0% 50%;
-// 	}
-// }
+@-webkit-keyframes gradient{
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
-// @keyframes gradient {
-// 	0% {
-// 		background-position: 0% 50%;
-// 	}
-// 	50% {
-// 		background-position: 100% 50%;
-// 	}
-// 	100% {
-// 		background-position: 0% 50%;
-// 	}
-// }
-// @-webkit-keyframes grow {
-//     0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
-//     100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
-// }
-// @keyframes grow {
-//     0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
-//     100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
-// }
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@-webkit-keyframes grow {
+    0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
+    100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
+}
+@keyframes grow {
+    0%{max-height: 20vh; opacity: 10%; filter: blur(25%)}
+    100%{max-height: 40vh; opacity: 100%; filter: blur(0%)}
+}
