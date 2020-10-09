@@ -9,9 +9,9 @@ const Video = (props) => {
                     You browser dont support no shit man....
                 </video> 
                 <content className="contentContainer p-5">
-                    <h1>Banner</h1>
+                    <h1>Video Banner</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button className="btn btn-primary">Go</button>
+                    <button className="btn btn-outline-light">Go</button>
                 </content>
             </div>
         </div>
