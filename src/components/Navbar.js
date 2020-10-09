@@ -6,7 +6,6 @@ const Navbar = () => {
     const onClickTheme = (e) =>{
         alert("clicked");
     }
-
     return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
                 <div className="container-fluid text-white">
@@ -66,8 +65,7 @@ const Navbar = () => {
                             </div>      
                         </div>                                              
                     </div>     
-                </div>
-                
+                </div>       
             </nav>    
     );
 }
