@@ -15,7 +15,7 @@ const Home = () => {
             <Infobar />
             <FormBanner /> 
             <Video videoUrl="https://sitiopruebavero.000webhostapp.com/downloads/The%20McCarty%20%20PRS%20Guitars.mp4" />
-            <ProductBanner />
+            {/* <ProductBanner /> */}
         </Fragment>
     );
 }
